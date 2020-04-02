@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0646B3E12436057D0063479A /* FriendListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0646B3E02436057D0063479A /* FriendListController.swift */; };
+		0646B3E3243605BD0063479A /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0646B3E2243605BD0063479A /* File.swift */; };
+		0646B3E6243606E00063479A /* friendListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0646B3E5243606E00063479A /* friendListCell.swift */; };
+		067FC42D2435F336005AAD2A /* GroupListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067FC42C2435F336005AAD2A /* GroupListController.swift */; };
+		067FC42F2435F3CB005AAD2A /* GroupListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067FC42E2435F3CB005AAD2A /* GroupListCell.swift */; };
+		067FC4312435F612005AAD2A /* myGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067FC4302435F612005AAD2A /* myGroupViewController.swift */; };
 		06DE31F52432061400AC8181 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DE31F42432061400AC8181 /* AppDelegate.swift */; };
 		06DE31F72432061400AC8181 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DE31F62432061400AC8181 /* SceneDelegate.swift */; };
 		06DE31F92432061400AC8181 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DE31F82432061400AC8181 /* ViewController.swift */; };
@@ -14,9 +20,16 @@
 		06DE31FF2432061400AC8181 /* Lec_on_1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 06DE31FD2432061400AC8181 /* Lec_on_1.xcdatamodeld */; };
 		06DE32012432061500AC8181 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06DE32002432061500AC8181 /* Assets.xcassets */; };
 		06DE32042432061500AC8181 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06DE32022432061500AC8181 /* LaunchScreen.storyboard */; };
+		06DE32102435E93B00AC8181 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DE320F2435E93B00AC8181 /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0646B3E02436057D0063479A /* FriendListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendListController.swift; sourceTree = "<group>"; };
+		0646B3E2243605BD0063479A /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = SOURCE_ROOT; };
+		0646B3E5243606E00063479A /* friendListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = friendListCell.swift; path = ../friendListCell.swift; sourceTree = "<group>"; };
+		067FC42C2435F336005AAD2A /* GroupListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GroupListController.swift; path = ../GroupListController.swift; sourceTree = "<group>"; };
+		067FC42E2435F3CB005AAD2A /* GroupListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupListCell.swift; sourceTree = "<group>"; };
+		067FC4302435F612005AAD2A /* myGroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myGroupViewController.swift; sourceTree = "<group>"; };
 		06DE31F12432061300AC8181 /* Leçon 1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Leçon 1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		06DE31F42432061400AC8181 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		06DE31F62432061400AC8181 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +39,7 @@
 		06DE32002432061500AC8181 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		06DE32032432061500AC8181 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		06DE32052432061500AC8181 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06DE320F2435E93B00AC8181 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TableViewCell.swift; path = "/Users/vlad.zag/Documents/GitHub/user_interface/Leçon 1/Leçon 1/TableViewCell.swift"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +53,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0646B3E4243605C60063479A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0646B3E2243605BD0063479A /* File.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		06DE31E82432061300AC8181 = {
 			isa = PBXGroup;
 			children = (
@@ -58,10 +80,17 @@
 		06DE31F32432061400AC8181 /* Leçon 1 */ = {
 			isa = PBXGroup;
 			children = (
+				0646B3E4243605C60063479A /* Model */,
+				06DE320F2435E93B00AC8181 /* TableViewCell.swift */,
+				0646B3E5243606E00063479A /* friendListCell.swift */,
+				067FC4302435F612005AAD2A /* myGroupViewController.swift */,
 				06DE31F42432061400AC8181 /* AppDelegate.swift */,
 				06DE31F62432061400AC8181 /* SceneDelegate.swift */,
 				06DE31F82432061400AC8181 /* ViewController.swift */,
+				067FC42C2435F336005AAD2A /* GroupListController.swift */,
+				067FC42E2435F3CB005AAD2A /* GroupListCell.swift */,
 				06DE31FA2432061400AC8181 /* Main.storyboard */,
+				0646B3E02436057D0063479A /* FriendListController.swift */,
 				06DE32002432061500AC8181 /* Assets.xcassets */,
 				06DE32022432061500AC8181 /* LaunchScreen.storyboard */,
 				06DE32052432061500AC8181 /* Info.plist */,
@@ -141,10 +170,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				067FC4312435F612005AAD2A /* myGroupViewController.swift in Sources */,
+				06DE32102435E93B00AC8181 /* TableViewCell.swift in Sources */,
+				0646B3E6243606E00063479A /* friendListCell.swift in Sources */,
+				067FC42D2435F336005AAD2A /* GroupListController.swift in Sources */,
 				06DE31F92432061400AC8181 /* ViewController.swift in Sources */,
 				06DE31FF2432061400AC8181 /* Lec_on_1.xcdatamodeld in Sources */,
+				0646B3E3243605BD0063479A /* File.swift in Sources */,
 				06DE31F52432061400AC8181 /* AppDelegate.swift in Sources */,
 				06DE31F72432061400AC8181 /* SceneDelegate.swift in Sources */,
+				067FC42F2435F3CB005AAD2A /* GroupListCell.swift in Sources */,
+				0646B3E12436057D0063479A /* FriendListController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
